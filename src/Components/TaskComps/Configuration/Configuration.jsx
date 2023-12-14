@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Main from '../../Main/Main';
 import './Configuration.css';
+import EmailMask from '../Email/EmailMask';
 
 const Configuration = ({ name }) => {
     const [emailMaskLength, setEmailMaskLength] = useState(4);
