@@ -1,0 +1,12 @@
+.container {
+    max-width: 900px;
+}
+
+.footer-name {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 18rem;
+}

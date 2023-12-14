@@ -1,0 +1,23 @@
+.container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.input-area {
+    width: 218px;
+}
+
+.required-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}

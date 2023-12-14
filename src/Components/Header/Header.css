@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    background-color: red;
+    max-width: 100%;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    padding: 10px 10px;
+}
+
+.li {
+    list-style: none;
+}
+
+.links {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 950px) {
+    .navbar {
+        display: flex;
+        background-color: red;
+        max-width: 100%;
+        height: 60px;
+    }
+
+    .navbar .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 24px;
+        background-color: red;
+        z-index: 1;
+    }
+
+    .navbar .navbar-links.open {
+        display: flex;
+        width: 96%;
+    }
+
+    .navbar .links {
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .burger-menu {
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-left: 10px;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        display: block;
+    }
+
+    .bar {
+        width: 100%;
+        height: 5px;
+        background-color: black;
+        margin-top: 5px;
+    }
+}
